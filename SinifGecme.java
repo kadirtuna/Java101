@@ -40,6 +40,13 @@ public class SinifGecme {
             }
         }
 
-        System.out.println("Ortalamanız: " + ((float)sum / notSayisi));
+        float ortalama = ((float)sum / notSayisi);
+        System.out.println("Ortalamanız: " + ortalama);
+
+        if (ortalama >= 55)
+            System.out.println("Sınıfı geçtiniz!");
+        else
+            System.out.println("Malesef sınıfta kaldınız!");
+
     }
 }
