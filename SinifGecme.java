@@ -4,43 +4,48 @@ import java.util.Scanner;
 
 public class SinifGecme {
     public static void main(String[] args) {
-        int matematik, fizik, turkce, kimya, muzik;
-        ArrayList<Integer> notlar = new ArrayList<Integer>();
+        int matematik, fizik, turkce, kimya, muzik, dersSayisi;
+        dersSayisi = 5;
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Matematik notunuzu giriniz: ");
         matematik = scan.nextInt();
-        notlar.add(matematik);
+        if (matematik < 0 || matematik > 100) {
+            matematik = 0;
+            dersSayisi--;
+        }
 
         System.out.println("Fizik notunuzu giriniz: ");
         fizik = scan.nextInt();
-        notlar.add(fizik);
+        if (fizik < 0 || fizik > 100) {
+            fizik = 0;
+            dersSayisi--;
+        }
 
         System.out.println("Türkçe notunuzu giriniz: ");
         turkce = scan.nextInt();
-        notlar.add(turkce);
+        if (turkce < 0 || turkce > 100){
+            turkce = 0;
+            dersSayisi--;
+        }
 
         System.out.println("Kimya notunuzu giriniz: ");
         kimya = scan.nextInt();
-        notlar.add(kimya);
+        if (kimya < 0 || kimya > 100){
+            kimya = 0;
+            dersSayisi--;
+        }
 
         System.out.println("Müzik notunuzu giriniz: ");
         muzik = scan.nextInt();
-        notlar.add(muzik);
-
-        int notSayisi = 0;
-        int sum = 0;
-        for (int not: notlar) {
-            if (!(not > 100 || not < 0)) {
-                notSayisi++;
-                sum += not;
-            }
-            else{
-                System.out.println("Notunuz geçersiz aralıkta olduğundan ortalamanıza etki etmeyecektir!");
-            }
+        if (muzik < 0 || muzik > 100){
+            muzik = 0;
+            dersSayisi--;
         }
 
-        float ortalama = ((float)sum / notSayisi);
+
+        float ortalama = (float)(matematik + fizik + turkce + kimya + muzik) / dersSayisi;
+
         System.out.println("Ortalamanız: " + ortalama);
 
         if (ortalama >= 55)
