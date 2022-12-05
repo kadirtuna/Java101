@@ -1,3 +1,16 @@
+/**
+ * Title: KullaniciGirisiDersi Application
+ * Author: Kadir Tuna
+ * Assignment: Java101-Patika.Dev
+ * Contacts;
+ * Instagram: kadir.tuna
+ * Github : github.com/kadirtuna
+ * LinkedIn : linkedin.com/in/kadirtuna20
+ *
+ * by;
+ * @author Kadir Tuna
+ */
+
 import java.io.IOException;
 import java.util.Scanner;
 

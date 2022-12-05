@@ -1,5 +1,5 @@
 /**
- * Title: ManavKasap Application
+ * Title: NotOrtalamasiHesaplayanProgram Application
  * Author: Kadir Tuna
  * Assignment: Java101-Patika.Dev
  * Contacts;

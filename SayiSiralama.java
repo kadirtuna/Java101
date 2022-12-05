@@ -1,3 +1,16 @@
+/**
+ * Title: SayiSiralama Application
+ * Author: Kadir Tuna
+ * Assignment: Java101-Patika.Dev
+ * Contacts;
+ * Instagram: kadir.tuna
+ * Github : github.com/kadirtuna
+ * LinkedIn : linkedin.com/in/kadirtuna20
+ *
+ * by;
+ * @author Kadir Tuna
+ */
+
 import java.util.Scanner;
 public class SayiSiralama {
     public static void main(String [] args){

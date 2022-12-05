@@ -1,5 +1,16 @@
-import java.lang.reflect.Array;
-import java.util.ArrayList;
+/**
+ * Title: SinifGecme Application
+ * Author: Kadir Tuna
+ * Assignment: Java101-Patika.Dev
+ * Contacts;
+ * Instagram: kadir.tuna
+ * Github : github.com/kadirtuna
+ * LinkedIn : linkedin.com/in/kadirtuna20
+ *
+ * by;
+ * @author Kadir Tuna
+ */
+
 import java.util.Scanner;
 
 public class SinifGecme {

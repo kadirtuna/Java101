@@ -1,5 +1,5 @@
 /**
- * Title: ManavKasap Application
+ * Title: KDVTutariHesaplayanProgram Application
  * Author: Kadir Tuna
  * Assignment: Java101-Patika.Dev
  * Description: This project is for computing the KDV tax and printing out the amount, the amount with KDV tax and KDV tax on the console.

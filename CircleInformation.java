@@ -1,5 +1,5 @@
 /**
- * Title: ManavKasap Application
+ * Title: CircleInformation Application
  * Author: Kadir Tuna
  * Assignment: Java101-Patika.Dev
  * Contacts;
