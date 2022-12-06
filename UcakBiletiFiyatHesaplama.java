@@ -9,31 +9,19 @@ public class UcakBiletiFiyatHesaplama {
         pricePerKm = 0.10;
         System.out.println("Type the distance of the target place: ");
         distance = scan.nextInt();
-
-        if (distance < 0){
-            System.out.println("The application has been closed due to wrong distance number! Try again.");
-            System.exit(0);
-        }
-
         System.out.println("\n1-One way\n2-Return\nType the travel type number: ");
         travelType = scan.nextInt();
+        System.out.println("Type your age: ");
+        age = scan.nextInt();
 
-        if(!(travelType == 1 || travelType == 2)){
-            System.out.println("The application has been closed due to wrong travel type number! Try again.");
+        if (distance < 0 || !(travelType == 1 || travelType == 2) || age < 0){
+            System.out.println("The application has been closed due to wrong data! Try again.");
             System.exit(0);
         }
 
         totalPrice = distance * pricePerKm * travelType;
 
-        //The discount starts with this line.
-        System.out.println("Type your age: ");
-        age = scan.nextInt();
-
-        if (age < 0){
-            System.out.println("The application has been closed due to invalid age input! Try again.");
-            System.exit(0);
-        }
-        else if(age < 12)
+        if(age < 12) //The discount calculation starts with this line.
             totalPrice = totalPrice * 0.5;
         else if (age < 24)
             totalPrice = totalPrice * 0.9;
