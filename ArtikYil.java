@@ -1,7 +1,7 @@
 /**
  * Title: ArtikYil Application
  * Author: Kadir Tuna
- * Description: ArtikYil App calculates that input year is whether a leap year or not.
+ * Description: ArtikYil App calculates that input year is whether a leap year or not and outputs the result.
  * Assignment: Java101-Patika.Dev
  * Contacts;
  * Instagram: kadir.tuna
