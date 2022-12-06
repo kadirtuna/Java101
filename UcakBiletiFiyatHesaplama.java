@@ -1,3 +1,18 @@
+/**
+ * Title: UcakBiletiFiyatHesaplama Application
+ * Author: Kadir Tuna
+ * Description: This application is for calculating the total flight price that depends of the distance, travel type and the age.
+ * The discount is applied with the rate of the user's age.
+ * Assignment: Java101-Patika.Dev
+ * Contacts;
+ * Instagram: kadir.tuna
+ * Github : github.com/kadirtuna
+ * LinkedIn : linkedin.com/in/kadirtuna20
+ *
+ * by;
+ * @author Kadir Tuna
+ */
+
 import java.util.Scanner;
 
 public class UcakBiletiFiyatHesaplama {
