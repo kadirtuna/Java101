@@ -1,7 +1,7 @@
 /**
  * Title: KuvvetBulma Application
  * Author: Kadir Tuna
- * Description: It prints out the 4th and 5th power of the number entered by the user to the console.
+ * Description:It prints in the console the 4th and 5th powers of numbers from 0 to the number entered by the user
  * Assignment: Java101-Patika.Dev
  * Contacts;
  * Instagram: kadir.tuna
